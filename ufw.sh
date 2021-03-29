@@ -2,6 +2,7 @@
 
 #!/bin/bash
 
+apt update
 apt install ufw
 ufw default deny incoming
 ufw default allow outgoing
